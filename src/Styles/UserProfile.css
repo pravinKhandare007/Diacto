@@ -1,0 +1,159 @@
+.user__info{
+    padding: 2rem 4rem;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.user__info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.user__info-card-one{
+    /* margin: 1rem 0; */
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+}
+
+.user__profile-img{
+   height: 150px;
+   padding-right: 2rem;
+}
+
+.user__profile-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.user__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    text-align: left;
+}
+
+.user__name{
+    display: flex;
+    align-items: center;
+}
+
+.h-text{
+    font-size: 1.8rem;
+    --text-opacity: 1;
+    color: #488cb3;
+    
+    font-weight: 700;
+}
+
+.location{
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.location_pin{
+    font-size: 1.2rem;
+    margin-right: 8px;
+    text-align: center;
+    color: #918f88;
+    font-weight: 600;
+}
+
+.city_detail {
+    font-size: 1rem;
+    margin-top: 2px;
+    text-align: center;
+    color: #918f88;
+    font-weight: 600;
+}
+
+.user__desc {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.2rem;
+    justify-content: flex-start;
+    /* margin: 0 auto; */
+    color: #1F3A5F;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.user__desc .p-text {
+    padding: 0.5rem 1rem 0 0;
+}
+
+.role {
+    text-transform: capitalize;
+}
+.vertical_bar {
+    width: 10px;
+    height: 10px;
+    color: #1F3A5F;
+    margin-left: 1rem;
+    /* border: 1px solid white; */
+}
+
+.user__info-card-two{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.user__info-card-two .card{
+    flex: 1;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.card__heading{
+    font-size: 1rem;
+    margin-top: 2px;
+    /* text-align: center; */
+    color: #1F3A5F;
+    font-weight: 600;   
+    position: relative;
+}
+
+.card__heading::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    background-color: #918f88;
+}
+
+.card__information{
+    margin-top: 1rem;
+}
+
+.information-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-heading{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.column-detail{
+    color: #488cb3;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}

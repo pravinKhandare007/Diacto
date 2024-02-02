@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
+
+.login {
+  width: 100%;
+  /* padding: 0 2rem; */
+  margin: 0 auto;
+  /* background: url("../assets/white_bg.png"); */
+  background-position: bottom;
+  background-repeat: repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.85);;
+}
+
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: rgba(255, 255, 255, 0.85);;
+}
+
+.login-left,
+.login-right {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+} 
+
+.login-left {
+  /* background: url("../assets/bg.png"); */
+  background: url("../assets/white_bg.png");
+  background-color: rgba(255, 255, 255, 0.85);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem;
+  flex: 1.4;
+  /* border-right: 5px solid #1F3A5F; */
+  /* border-radius: 0px 50px 50px 0px / 0px 25px 25px 0px; */
+  /* box-shadow: 10px 0 5px -2px #888; */
+  /* border-radius: 200px; */
+  border-radius: 0px 77px 77px 0px / 0px 52px 52px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-glass {
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.greetings{
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  /* text-shadow: -1px 5px 50px rgba(0,0,0,0.6); */
+}
+
+.quote-heading{
+  font-size: 2rem;
+}
+
+.quote-container{
+  margin: 3rem auto;
+  font-family: 'Qwigley', sans-serif;
+
+  /* border: 1px solid black; */
+}
+
+.quote-text {
+  margin: 2rem 0;
+  position: relative;
+}
+
+#quote {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin-left: 2rem;
+  line-height: 2.3rem;
+  font-family: 'Wellfleet', sans-serif;
+
+}
+
+#fa-quote-left {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-size: 1.5rem;
+  margin-right: 0.54rem;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  /* font-style: italic; */
+  font-family: 'Wellfleet', sans-serif;
+
+}
+
+
+.login-right {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+}
+
+
+
+
+.login_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.profile_img {
+  position: relative;
+  border-width: 4px;
+  width: 135px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+

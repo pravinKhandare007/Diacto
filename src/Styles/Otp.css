@@ -1,0 +1,178 @@
+.otp {
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+  background: url("../assets/white_bg.png");
+  background-color: whitesmoke;
+  background-position: bottom;
+  background-repeat: repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.otp_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  padding: 3rem 2rem;
+  width: 60%;
+  /* flex-direction: row; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: #ffffff;
+}
+
+
+.otp_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otp_heading {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.otp_subheading {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 80%;
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+.otp_form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  letter-spacing: 0.5px;
+  gap: 1rem;
+}
+
+.otp_textbox {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  color: #1F3A5F;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.otp_textbox:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.otp_textbox::-webkit-inner-spin-button,
+.otp_textbox::-webkit-outer-spin-button {
+  display: none;
+}
+
+.otp_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem auto;
+  border-width: 0;
+  background-color: #4f46e5;
+  width: 40%;
+  padding: 15px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.otp_button a {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp_button:hover {
+  background-color: #3f38a6;
+}
+
+.otp_error_message {
+  text-align: center;
+  color: red;
+}
+
+.otp_trigger {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.otp_trigger_btn {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.otp_trigger_btn:hover {
+  color: red;
+}
+
+/* For Mobile View (max-width: 450px) */
+@media screen and (max-width: 450px) {
+  .otp_container {
+    height: auto;
+    /* Adjust height as needed */
+    max-width: 90%;
+    /* Adjust the maximum width of the container */
+  }
+
+  .otp_glass {
+    border-radius: 6px;
+    min-width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+  }
+
+  .otp_heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .otp_subheading {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+
+  .otp_textbox {
+    width: 90%;
+    height: 50px;
+    width: 45px;
+  }
+
+  .otp_trigger_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  /* Add more responsive adjustments as needed */
+}
