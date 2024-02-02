@@ -1,0 +1,93 @@
+.add-button{
+    font-weight: 500;
+    margin:1em;
+    margin-left:0;
+    padding: 0.3em;
+    border: 1px solid #1F3A5F;
+    border-radius: 5px;
+    position: relative;
+    color: #1F3A5F;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+}
+
+.add-button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #1F3A5F;
+    z-index: -1;
+}
+
+.add-button:hover {
+    color: white;
+}
+
+.add-button:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.add-button:active {
+    transform: scale(0.9);
+}
+
+.modal-body{
+    padding:1.5em;
+}
+
+.add-button2{
+    font-weight: 500;
+    margin:1em;
+    margin-left:0;
+    padding: 0.3em;
+    border: 1px solid #1F3A5F;
+    border-radius: 5px;
+    position: relative;
+    color: #1F3A5F;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+}
+
+.add-button2:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #1F3A5F;
+    z-index: -1;
+}
+
+.add-button2:hover {
+    color: white;
+}
+
+.add-button2:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.add-button2:active {
+    transform: scale(0.9);
+}

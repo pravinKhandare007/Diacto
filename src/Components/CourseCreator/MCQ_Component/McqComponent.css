@@ -1,0 +1,13 @@
+.add-option{
+    border: 1px solid #1F3A5F;
+    background-color: #1F3A5F;
+    width: 100px;
+    color:white;
+    padding: 0.3em;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-option:hover{
+    transform: scale(1.05,1.05);
+}

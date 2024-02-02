@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran' , sans-serif;
+}
+
+:root{
+  --primary-color:#1F3A5F;
+
+  --secondary-color:#b6ccd8;
+  --tertiary-color:#d4eaf7;
+
+  
+  --primary-300:#3b3c3d;
+  --accent-100:#71c4ef;
+  --text-100:#1d1c1c;
+  --text-200:#313d44;
+  --bg-100:#fffefb;
+  --bg-200:#f5f4f1;
+  --bg-300:#cccbc8;
+
+  /* new variables pravin ----  */
+  --icons:#8E8E8E;
+  --blue-primary:#0048AC;
+  --gradient-teal:#CFEFFF;
+  --gradient-white:#FFF9F9;
+  --green-primary:#63B83F;
+    
+}
+
+
+/* body{
+  background-color: #f6f5ff;
+}
+ */
+
+:root{
+  --text-section-heading-size : 20px;
+  --text-heading-size : 14px font-weight: 500;
+  --text-desc-size : 14px font-weight: 300;
+
+}

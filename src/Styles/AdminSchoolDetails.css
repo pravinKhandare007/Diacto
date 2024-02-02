@@ -1,0 +1,29 @@
+.school__details{
+    margin-top: 2.7rem;
+}
+
+.school__details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school__details__card__left,
+.school__details__card__right{
+    /* display: flex; */
+    flex: 1;
+    width: 100%;
+}
+
+.school__details__card__left{
+    margin-right: 5rem;
+}
+
+.school__details__card__information .information-column{
+    margin-bottom: 1rem;
+}
+
+.school__details__card__information .information-column .column-heading,
+.school__details__card__information .information-column .column-detail{
+    font-size: 1.1rem;
+}

@@ -1,0 +1,48 @@
+
+
+.testing{
+    border-left: 3px solid var(--primary-color);
+    
+    padding: 1em;
+}
+
+.testing-2{
+    border-left: 3px solid var(--primary-color);
+    padding: 0.8em;
+}
+
+.card{
+    /* border-radius: 0 !important; */
+    margin-top: 5px; 
+    /* padding: 1em;    */
+}
+
+.card-header{
+    /* background-color: rgb(240, 32, 240);
+    border-radius: 100px !important; */
+    border: none;
+    font-size: 0.9rem;
+    font-weight: medium;
+    font-family: 'Inter', sans-serif;
+}
+
+.add-semester-button-container{
+    padding: 5px 0px;
+}
+
+.highlight{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.highlight:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.add-buttons{
+    font-size: 0.8rem;
+}
+
+.accordion-collapse{
+    overflow: hidden !important;
+}
